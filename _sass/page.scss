@@ -1,0 +1,111 @@
+/* Style inspiration and settings adapted from https://github.com/jgthms/web-design-in-4-minutes*/
+
+/* Base */
+html {
+  font-size: 18px;
+}
+
+
+@font-face {
+  font-family: "Iosevka Aile Bold";
+  font-weight: 900;
+  font-style: bold;
+  src: url("../fonts/IosevkaAile-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Aile ExtraBold";
+  font-weight: 900;
+  font-style: bold;
+  src: url("../fonts/IosevkaAile-ExtraBold.woff2") format("woff2");
+}
+
+
+
+@font-face {
+  font-family: "Iosevka Aile Regular";
+  font-weight: 900;
+  font-style: normal;
+  src: url("../fonts/IosevkaAile-Regular.woff2") format("woff2");
+}
+
+
+body {
+  font-family: "Iosevka Aile Regular", "Helvetica", sans-serif;
+}
+
+b, h3 {
+  font-family: "Iosevka Aile Bold", "Helvetica", sans-serif;
+  font-size: 25px;
+}
+
+p, li {
+  font-family: "Iosevka Aile Regular", "Helvetica", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: medium;
+  line-height: 1.5;
+}
+
+/* 03 Spacing */
+
+.padded {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  line-height: 30px;
+}
+
+.main-content {
+  padding-top: 15px;
+  padding-bottom: 30px;
+  line-height: 30px;
+}
+
+div.main-content h2 {
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+header h1,
+h5 {
+  display: inline;
+}
+
+/* 04 Color and contrast */
+
+body {
+  color: #c5ccce;
+  background-color: #0f1011;
+}
+
+h1,
+h2,
+strong {
+  font-family: "Iosevka Aile ExtraBold", "Helvetica", sans-serif;
+  color: #dcdede;
+}
+
+header h5 {
+  font-weight: lighter;
+}
+
+/* 05 Balance */
+
+code {
+  vertical-align: text-bottom;
+  color: #a0d3ee;
+}
+
+/* 06 Primary color */
+
+a {
+  color: #a8bdce;
+}
+
+/* 07 Secondary colors */
+
+h1,
+h2,
+strong {
+  font-weight: 500;
+}
