@@ -6,6 +6,7 @@ title: "Havokscript: Writing Custom Modes for Halo Infinite (Part 1)"
 date:   2024-06-11
 permalink: /havokscript-p1
 categories: halo
+image: "/assets/images/havokscript.jpg"
 
 ---
 
