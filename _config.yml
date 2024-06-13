@@ -1,12 +1,13 @@
 title: Surasia's Random Stuff Blog
-description: >- 
+description: >-
   Welcome to my blog! This site covers some research and reverse engineering
   projects that I'm working on. This ranges from decompilation and malware
   analysis to game modding.
 baseurl: ""
-url: ""
+tagline: "Cats and Reverse Engineering."
+url: "https://surasia.github.io"
 twitter_username: Surasia_
-github_username:  Surasia
+github_username: Surasia
 repository: Surasia/surasia.github.io
 theme: null
 markdown: kramdown
@@ -14,12 +15,14 @@ highlighter: rouge
 kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts:
-        block:
-            line_numbers: true
+    block:
+      line_numbers: true
 
 plugins:
   - jekyll-feed
   - jekyll-paginate-v2
+  - jekyll-seo-tag
+  - jekyll-github-metadata
 
 sass:
   sass_dir: _sass
@@ -28,7 +31,14 @@ sass:
 pagination:
   enabled: true
   per_page: 3
-  sort_field: 'date'
+  sort_field: "date"
   sort_reverse: true
 
-include: ['_pages', '_posts', 'assets/images']
+author:
+  twitter: Surasia_
+
+twitter:
+  username: Surasia_
+  card: summary
+
+include: ["_pages", "_posts", "assets/images"]
