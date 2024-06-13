@@ -6,6 +6,7 @@ date: 2024-06-13
 permalink: /g7-reverse
 categories: ["halo", "assembly"]
 image: "/assets/images/g7/g7_fireteam.png"
+description: This post covers the entire process of extracting files from G7 Engine games, including textures.
 ---
 
 ![Halo: Fireteam Raven art alongside SSE2 intrinsics](/assets/images/g7/g7_fireteam.png)
