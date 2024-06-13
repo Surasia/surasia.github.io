@@ -144,7 +144,7 @@ Now that we have our types set up, it's time to review their values. The first i
 
 <br>
 
-It seemed to be constantly increasing! Constantly increasing by the first integer value we found in fact! This pretty much confirms that the first integer value was a `size` and the second was `offset`. We could now read each file entry in the file. Before that though, I checked the two integer values left.
+It seemed to be constantly increasing! Constantly increasing by the first integer value we found in fact! This pretty much confirms that the first integer value was a `size` and the second was `offset`. We can now read each file entry in the file.
 
 <br>
 
