@@ -23,6 +23,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-seo-tag
   - jekyll-github-metadata
+  - jekyll-sitemap
 
 sass:
   sass_dir: _sass

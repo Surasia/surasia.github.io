@@ -61,8 +61,8 @@ I found the function rather quickly due to the game passing `%s.g7` to the open 
     // tableCount = rsp+78h (read 8 bytes in buffer)
     v72 = sub_4291B0(96 * tableCount); // allocate memory for 96 bytes in buffer
 
-    _R12 = v72; // set R12 registry to memory adress
-    // we can now offset the registry for the table
+    _R12 = v72; // set R12 register to memory adress
+    // we can now offset the register for the table
 
     if ( !v72 ) // if memory doesn't exist
       return -1;
