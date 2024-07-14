@@ -5,7 +5,6 @@ html {
   font-size: 18px;
 }
 
-
 @font-face {
   font-family: "Iosevka Aile Bold";
   font-weight: 900;
@@ -20,8 +19,6 @@ html {
   src: url("../fonts/IosevkaAile-ExtraBold.woff2") format("woff2");
 }
 
-
-
 @font-face {
   font-family: "Iosevka Aile Regular";
   font-weight: 900;
@@ -29,17 +26,18 @@ html {
   src: url("../fonts/IosevkaAile-Regular.woff2") format("woff2");
 }
 
-
 body {
   font-family: "Iosevka Aile Regular", "Helvetica", sans-serif;
 }
 
-b, h3 {
+b,
+h3 {
   font-family: "Iosevka Aile Bold", "Helvetica", sans-serif;
   font-size: 25px;
 }
 
-p, li {
+p,
+li {
   font-family: "Iosevka Aile Regular", "Helvetica", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -100,6 +98,10 @@ code {
 
 a {
   color: #a8bdce;
+}
+
+a:hover {
+  color: #ab466c;
 }
 
 /* 07 Secondary colors */

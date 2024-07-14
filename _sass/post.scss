@@ -8,7 +8,10 @@
   padding-bottom: 50px;
 }
 
-.post-content h1, h3, code, pre {
+.post-content h1,
+h3,
+code,
+pre {
   padding-bottom: 10px;
   padding-top: 10px;
 }
@@ -16,4 +19,34 @@
 .post-content h2 {
   padding-bottom: 20px;
   padding-top: 20px;
+}
+
+.toc__list:before {
+  content: "Contents";
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.toc__list {
+  border: 2px solid gray;
+  border-radius: 4px;
+  line-height: 1.5rem;
+  padding: 0.7rem 1.5rem;
+  font-weight: 600;
+}
+
+.toc__sublist li {
+  padding-left: 1.25rem;
+}
+
+.toc-h2:first-child {
+  margin-top: 1rem;
+}
+
+#toc a {
+  text-decoration: underline;
+}
+
+#toc a:hover {
+  color: #ab466c;
 }

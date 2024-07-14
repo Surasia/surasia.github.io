@@ -1,19 +1,18 @@
 ---
-
 layout: post
 author: Surasia
 title: "Havokscript: Writing Custom Modes for Halo Infinite (Part 1)"
-date:   2024-06-11
+date: 2024-06-11
 permalink: /havokscript-p1
 categories: halo
 image: "/assets/images/havokscript.jpg"
 description: This post covers some basics on Halo Infinite's HavokScript-based game mode API.
-
+toc: true
 ---
 
 ![Havokscript Thumbnail](/assets/images/havokscript.jpg)
 <span style="font-size:12px;color:#c9c9b5;">
-  Image showcasing armor from Halo Infinite next to a block of Havokscript code.
+Image showcasing armor from Halo Infinite next to a block of Havokscript code.
 </span>
 
 <hr>
@@ -31,7 +30,7 @@ Havokscript is a now-discontinued part of the Havok Game SDK, built upon Lua 5.1
 
 ### Targeting Our Code
 
-Before writing any code, it's important to define what will run on the server or the  client. In HavokScript, the server can interface with the client to run client-specific commands, such as `os.execute()`. This is done via the `RunClientScript()` function, which also allows for specific code to be executed for specific players.
+Before writing any code, it's important to define what will run on the server or the client. In HavokScript, the server can interface with the client to run client-specific commands, such as `os.execute()`. This is done via the `RunClientScript()` function, which also allows for specific code to be executed for specific players.
 
 <br>
 
@@ -52,7 +51,7 @@ The target for a section of our code is set using preprocessor directives, which
 
   --## CLIENT
 
-  function remoteClient.HelloWorld():void 
+  function remoteClient.HelloWorld():void
   -- Every function needs to be defined under "remoteClient".
       print("Hello World!");
   end
@@ -136,11 +135,13 @@ The `Initialize()` function in particular allows us to register events, which wi
 <br>
 
 ### C++ to Lua API: Functions, Definitions
+
 If you've been following on so far, you might've noticed that we are calling functions such as `RegisterGlobalEventOnSelf` which are seemingly not declared in any of our code. This is because HavokScript offers a set of bindings to functions in the actual engine, initialized at runtime.
 
 <br>
 
 The list of built-in functions and enum definitions is quite large, and is mostly undocumented. Most functions however are clearly named and can be used in parts of your code. Some examples include:
+
 - `Variant_GetEngineName()`: Returns engine name string (ex: "Slayer").
 - `Toggle_TaaEnabled()`: Toggles Temporal Anti Aliasing.
 - `Player_GetXuid(Player)`: Gets Xbox User ID of player.

@@ -7,6 +7,7 @@ permalink: /g7-reverse
 categories: ["halo", "assembly"]
 image: "/assets/images/g7/g7_fireteam.jpg"
 description: This post covers the entire process of extracting files from G7 Engine games, including textures.
+toc: true
 ---
 
 ![Halo: Fireteam Raven art alongside SSE2 intrinsics](/assets/images/g7/g7_fireteam.jpg)
@@ -185,5 +186,6 @@ After putting it into a very old but useful program called "Raw Image Cooker" an
 ![The masterchief_dif texture in all of its glory](/assets/images/g7/g7_masterchief_dif_bitmap.jpg)
 <br>
 
-## _Bingo! We have (almost) fully reverse engineered the main G7 Archive file._
+#### _Bingo! We have (almost) fully reverse engineered the main G7 Archive file._
+
 ... more on the G7 Engine coming soon!
