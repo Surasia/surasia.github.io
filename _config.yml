@@ -50,4 +50,4 @@ twitter:
   username: Surasia_
   card: summary
 
-include: ["_pages", "_posts", "assets/images"]
+include: ["_pages", "_posts", "assets/images", ".well_known"]
